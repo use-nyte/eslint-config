@@ -1,16 +1,15 @@
-import pluginJs from "@eslint/js";
-import pluginReact from "eslint-plugin-react";
-import globals from "globals";
+import { defineConfig } from "eslint/config";
+import js from "@eslint/js";
 import tseslint from "typescript-eslint";
+import pluginReact from "eslint-plugin-react";
 
-/** @type {import('eslint').Linter.Config[]} */
-export default [
+export default defineConfig([
 	{ files: ["**/*.{js,mjs,cjs,ts,jsx,tsx}"] },
-	{ ignores: [".react-router", "bin", "coverage", "data", "dist", "docs", "node_modules"] },
-	{ languageOptions: { globals: { ...globals.browser, ...globals.node } } },
-	pluginJs.configs.recommended,
-	...tseslint.configs.recommended,
+	{ ignores: ["dist", "node_modules"] },
+	js.configs.recommended,
+	tseslint.configs.recommended,
 	pluginReact.configs.flat.recommended,
+	pluginReact.configs.flat["jsx-runtime"],
 	{
 		settings: {
 			react: {
@@ -32,4 +31,4 @@ export default [
 			"@typescript-eslint/explicit-module-boundary-types": "error"
 		}
 	}
-];
+]);
