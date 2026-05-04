@@ -1,0 +1,24 @@
+{
+  "name": "@use-nyte/eslint-config",
+  "version": "1.0.0",
+  "description": "Shared ESLint config for use-nyte projects.",
+  "type": "module",
+  "main": "./eslint.config.js",
+  "exports": {
+    ".": "./eslint.config.js"
+  },
+  "files": [
+    "eslint.config.js",
+    "README.md"
+  ],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.33.2",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.3.0",
+    "eslint-plugin-react": "^7.37.5",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.59.1"
+  }
+}
