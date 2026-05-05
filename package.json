@@ -12,7 +12,7 @@
 		"README.md"
 	],
 	"scripts": {
-		"release": "gh release create v${npm_package_version} --title v${npm_package_version} --generate-notes --latest"
+		"tag": "git tag v${npm_package_version} && git push origin v${npm_package_version}"
 	},
 	"author": "",
 	"license": "ISC",
