@@ -39,6 +39,13 @@ jobs:
             - run: pnpm publish
               env:
                 NODE_AUTH_TOKEN: ${{secrets.BOT_TOKEN}}
+
+    release:
+        needs: publish-gpr
+        runs-on: ubuntu-latest
+        permissions:
+            contents: write
+        steps:
             - run: gh release create "$TAG_NAME" --title "$TAG_NAME" --generate-notes --latest
               env:
                 GH_TOKEN: ${{github.token}}
