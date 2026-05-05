@@ -54,9 +54,8 @@ jobs:
               with:
                 fetch-depth: 0
             - uses: softprops/action-gh-release@v3
-              env:
-                GITHUB_TOKEN: ${{secrets.BOT_TOKEN}}
               with:
                 name: ${{github.ref_name}}
                 tag_name: ${{github.ref_name}}
+                token: ${{secrets.BOT_TOKEN}}
                 generate_release_notes: true
