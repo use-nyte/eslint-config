@@ -21,7 +21,8 @@
 		"url": "https://github.com/use-nyte/eslint-config.git"
 	},
 	"publishConfig": {
-		"registry": "https://npm.pkg.github.com"
+		"registry": "https://npm.pkg.github.com",
+		"access": "public"
 	},
 	"packageManager": "pnpm@10.33.2",
 	"devDependencies": {
