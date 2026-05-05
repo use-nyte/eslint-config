@@ -8,11 +8,11 @@ jobs:
     build:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v4
-            - uses: pnpm/action-setup@v4
+            - uses: actions/checkout@v6
+            - uses: pnpm/action-setup@v6
               with:
                   version: 10.33.2
-            - uses: actions/setup-node@v4
+            - uses: actions/setup-node@v6
               with:
                   node-version: 24.15.0
                   cache: pnpm
@@ -25,11 +25,11 @@ jobs:
             contents: read
             packages: write
         steps:
-            - uses: actions/checkout@v4
-            - uses: pnpm/action-setup@v4
+            - uses: actions/checkout@v6
+            - uses: pnpm/action-setup@v6
               with:
                   version: 10.33.2
-            - uses: actions/setup-node@v4
+            - uses: actions/setup-node@v6
               with:
                   node-version: 24.15.0
                   registry-url: https://npm.pkg.github.com/
