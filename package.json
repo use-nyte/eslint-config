@@ -11,6 +11,9 @@
 		"eslint.config.js",
 		"README.md"
 	],
+	"scripts": {
+		"release": "gh release create v${npm_package_version} --title v${npm_package_version} --generate-notes --latest"
+	},
 	"author": "",
 	"license": "ISC",
 	"repository": {
