@@ -1,16 +1,16 @@
 name: Create Release PR
-description: 
+description:
 
 on:
-    push:
-        branches:
-            - main
+  push:
+    branches:
+      - main
 
 permissions:
-    contents: write
-    issues: write
-    pull-requests: write
-    packages: write
+  contents: write
+  issues: write
+  pull-requests: write
+  packages: write
 
 jobs:
   release:

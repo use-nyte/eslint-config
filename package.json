@@ -1,21 +1,21 @@
 {
-	"name": "@use-nyte/eslint-config",
-	"version": "1.0.2",
-	"description": "Shared ESLint config for use-nyte projects.",
-	"repository": "https://github.com/use-nyte/eslint-config",
-	"license": "Apache-2.0",
-	"main": "./src/eslint.config.mts",
-	"devDependencies": {
-		"@eslint/js": "^10.0.1",
-		"eslint": "^10.4.0",
-		"eslint-config-prettier": "^10.1.8",
-		"eslint-plugin-prettier": "^5.5.5",
-		"eslint-plugin-react": "^7.37.5",
-		"typescript": "^6.0.3",
-		"typescript-eslint": "^8.60.0"
-	},
-	"publishConfig": {
-		"registry": "https://npm.pkg.github.com",
-		"access": "public"
-	}
+  "name": "@use-nyte/eslint-config",
+  "version": "1.0.2",
+  "description": "Shared ESLint config for use-nyte projects.",
+  "repository": "https://github.com/use-nyte/eslint-config",
+  "license": "Apache-2.0",
+  "main": "./src/eslint.config.mts",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.4.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "eslint-plugin-react": "^7.37.5",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.60.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "public"
+  }
 }
