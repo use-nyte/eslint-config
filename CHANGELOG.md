@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/use-nyte/eslint-config/compare/v1.1.0...v1.2.0) (2026-05-27)
+
+
+### Features
+
+* format code using github action ([#15](https://github.com/use-nyte/eslint-config/issues/15)) ([b6fcd01](https://github.com/use-nyte/eslint-config/commit/b6fcd01b743eb23a8172b5db2ca56a5e5b4a8ab7))
+
 ## [1.1.0](https://github.com/use-nyte/eslint-config/compare/v1.0.2...v1.1.0) (2026-05-27)
 
 ### Features
