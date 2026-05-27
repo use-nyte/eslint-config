@@ -32,6 +32,11 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           cache: pnpm
         if: ${{ steps.release.outputs.release_created }}
+      - name: Enable pnpm
+        run: |
+          corepack enable
+          corepack prepare pnpm@10.33.4 --activate
+        if: ${{ steps.release.outputs.release_created }}
       - name: Install Dependencies
         run: pnpm install --frozen-lockfile
         if: ${{ steps.release.outputs.release_created }}
