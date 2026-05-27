@@ -4,13 +4,21 @@
   "description": "Shared ESLint config for use-nyte projects.",
   "repository": "https://github.com/use-nyte/eslint-config",
   "license": "Apache-2.0",
-  "main": "./src/eslint.config.mts",
+  "main": "src/eslint.config.mjs",
+  "bin": {
+    "lint": "src/cli.mjs"
+  },
+  "scripts": {
+    "lint": "node src/cli.mjs"
+  },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
+    "@types/node": "^25.9.1",
     "eslint": "^10.4.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.5",
     "eslint-plugin-react": "^7.37.5",
+    "globals": "^17.6.0",
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.60.0"
   },
