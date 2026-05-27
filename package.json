@@ -1,6 +1,6 @@
 {
 	"name": "@use-nyte/eslint-config",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Shared ESLint config for use-nyte projects.",
 	"repository": "https://github.com/use-nyte/eslint-config",
 	"license": "Apache-2.0",
