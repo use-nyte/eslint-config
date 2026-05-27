@@ -2,6 +2,7 @@ version: 2
 updates:
   - package-ecosystem: "npm"
     directory: "/"
-    prefix: "pnpm"
+    commit-message:
+      prefix: "npm"
     schedule:
       interval: "weekly"
