@@ -1,4 +1,4 @@
-name: Create @use-nyte/eslint-config Release PR
+name: Create Release PR
 description: 
 
 on:
