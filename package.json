@@ -11,15 +11,13 @@
   "scripts": {
     "lint": "node src/cli.mjs"
   },
-  "devDependencies": {
+  "dependencies": {
     "@eslint/js": "^10.0.1",
-    "@types/node": "^25.9.1",
     "eslint": "^10.4.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.5",
     "eslint-plugin-react": "^7.37.5",
     "globals": "^17.6.0",
-    "typescript": "^6.0.3",
     "typescript-eslint": "^8.60.0"
   },
   "publishConfig": {
