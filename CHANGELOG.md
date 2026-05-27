@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.2](https://github.com/use-nyte/eslint-config/compare/v1.0.1...v1.0.2) (2026-05-27)
+
+
+### Bug Fixes
+
+* only setup pnpm on release ([9299be8](https://github.com/use-nyte/eslint-config/commit/9299be8452735b018b6860cefe2a4b03e0ec4870))
+* use an action to setup pnpm ([8739970](https://github.com/use-nyte/eslint-config/commit/87399700d152e814fcc4e22590d898ee17be64d6))
+
 ## [1.0.1](https://github.com/use-nyte/eslint-config/compare/v1.0.0...v1.0.1) (2026-05-27)
 
 
