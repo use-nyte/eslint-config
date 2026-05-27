@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/use-nyte/eslint-config/compare/v1.2.0...v1.3.0) (2026-05-27)
+
+
+### Features
+
+* add lint to github actions ([#17](https://github.com/use-nyte/eslint-config/issues/17)) ([f127ee1](https://github.com/use-nyte/eslint-config/commit/f127ee169caa034403741133db3b947ce847436e))
+
 ## [1.2.0](https://github.com/use-nyte/eslint-config/compare/v1.1.0...v1.2.0) (2026-05-27)
 
 
