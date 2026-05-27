@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/use-nyte/eslint-config/compare/v1.3.0...v1.3.1) (2026-05-27)
+
+
+### Bug Fixes
+
+* packages must be dependencies ([4c72445](https://github.com/use-nyte/eslint-config/commit/4c7244564309c179eba6dc2555a5d22afb75cce8))
+
 ## [1.3.0](https://github.com/use-nyte/eslint-config/compare/v1.2.0...v1.3.0) (2026-05-27)
 
 
