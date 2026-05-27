@@ -21,6 +21,9 @@ async function main() {
   const errorCount = results.reduce((sum, result) => sum + result.errorCount, 0);
   if (errorCount > 0) {
     process.exit(1);
+  } else {
+    console.log("No linting errors found.");
+    process.exit(0);
   }
 }
 
