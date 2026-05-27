@@ -8,7 +8,7 @@ async function main() {
   const eslint = new ESLint({
     overrideConfigFile: true,
     overrideConfig,
-    fix: true
+    fix: true,
   });
 
   const results = await eslint.lintFiles(overrideConfig[0].files);
@@ -18,7 +18,10 @@ async function main() {
 
   console.log(resultText);
 
-  const errorCount = results.reduce((sum, result) => sum + result.errorCount, 0);
+  const errorCount = results.reduce(
+    (sum, result) => sum + result.errorCount,
+    0,
+  );
   if (errorCount > 0) {
     process.exit(1);
   } else {
