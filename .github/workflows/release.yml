@@ -1,47 +1,18 @@
-name: Create Release PR
-description: 
+name: Release Node.js Package
 
 on:
-    push:
-        branches:
-            - main
+  push:
+    branches:
+      - main
 
 permissions:
-    contents: write
-    issues: write
-    pull-requests: write
-    packages: write
+  contents: write
+  issues: write
+  pull-requests: write
+  packages: write
 
 jobs:
   release:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Create Release PR
-        uses: googleapis/release-please-action@v5.0.0
-        id: release
-        with:
-          token: ${{ secrets.BOT_TOKEN }}
-          release-type: node
-      - name: Checkout
-        uses: actions/checkout@v6
-        if: ${{ steps.release.outputs.release_created }}
-      - name: Setup PNPM
-        uses: pnpm/action-setup@v6
-        with:
-          version: 11.3.0
-        if: ${{ steps.release.outputs.release_created }}
-      - name: Setup Node.js
-        uses: actions/setup-node@v6
-        with:
-          node-version: 24.16.0
-          registry-url: https://npm.pkg.github.com/
-          cache: pnpm
-        if: ${{ steps.release.outputs.release_created }}
-      - name: Install Dependencies
-        run: pnpm install --frozen-lockfile
-        if: ${{ steps.release.outputs.release_created }}
-      - name: Publish Package
-        run: pnpm publish --no-git-checks
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.BOT_TOKEN }}
-        if: ${{ steps.release.outputs.release_created }}
+    name: Release
+    uses: use-nyte/.github/.github/workflows/release-node-pkg.yml@main
+    secrets: inherit

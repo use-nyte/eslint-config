@@ -2,13 +2,11 @@
 
 ## [1.1.0](https://github.com/use-nyte/eslint-config/compare/v1.0.2...v1.1.0) (2026-05-27)
 
-
 ### Features
 
 * added prettier plugins ([#13](https://github.com/use-nyte/eslint-config/issues/13)) ([647c8b5](https://github.com/use-nyte/eslint-config/commit/647c8b582ce8711a84eefea8e7d81ae1e6613883))
 
 ## [1.0.2](https://github.com/use-nyte/eslint-config/compare/v1.0.1...v1.0.2) (2026-05-27)
-
 
 ### Bug Fixes
 
@@ -17,13 +15,11 @@
 
 ## [1.0.1](https://github.com/use-nyte/eslint-config/compare/v1.0.0...v1.0.1) (2026-05-27)
 
-
 ### Bug Fixes
 
 * enable pnpm in release action ([#10](https://github.com/use-nyte/eslint-config/issues/10)) ([4fec4fc](https://github.com/use-nyte/eslint-config/commit/4fec4fc4c9853f4c62f4012a6762518e2f20ffd8))
 
 ## 1.0.0 (2026-05-27)
-
 
 ### ⚠ BREAKING CHANGES
 

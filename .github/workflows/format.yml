@@ -1,0 +1,15 @@
+name: Prettier
+
+on:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  format:
+    name: Format Code
+    uses: use-nyte/.github/.github/workflows/format-prettier.yml@main
+    secrets: inherit
