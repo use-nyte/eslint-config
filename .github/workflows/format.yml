@@ -1,0 +1,13 @@
+name: Format Code
+
+on:
+    pull_request:
+        branches:
+            - main
+
+permissions:
+    contents: write
+
+jobs:
+    format:
+        uses: use-nyte/prettier-config/.github/workflows/format.yml@main
