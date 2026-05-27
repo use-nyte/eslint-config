@@ -11,5 +11,5 @@ permissions:
 jobs:
     format:
         name: Format Code
-        uses: use-nyte/prettier-config/.github/workflows/format.yml@main
+        uses: use-nyte/.github/.github/workflows/prettier.yml@main
         secrets: inherit
