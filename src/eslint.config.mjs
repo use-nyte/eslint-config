@@ -15,8 +15,8 @@ export default defineConfig([
   {
     settings: {
       react: {
-        version: "19",
-      },
+        version: "19"
+      }
     },
     rules: {
       "react/react-in-jsx-scope": "off",
@@ -25,12 +25,12 @@ export default defineConfig([
         {
           accessibility: "explicit",
           overrides: {
-            constructors: "no-public",
-          },
-        },
+            constructors: "no-public"
+          }
+        }
       ],
       "@typescript-eslint/explicit-function-return-type": "error",
-      "@typescript-eslint/explicit-module-boundary-types": "error",
-    },
-  },
+      "@typescript-eslint/explicit-module-boundary-types": "error"
+    }
+  }
 ]);
