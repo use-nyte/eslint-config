@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/use-nyte/eslint-config/compare/v1.4.0...v1.4.1) (2026-05-29)
+
+
+### Bug Fixes
+
+* don't error if no files found ([c7e1578](https://github.com/use-nyte/eslint-config/commit/c7e15789546c51ebf6563e14770660b4ae0711d2))
+
 ## [1.4.0](https://github.com/use-nyte/eslint-config/compare/v1.3.1...v1.4.0) (2026-05-29)
 
 
