@@ -16,9 +16,12 @@ async function main() {
   const formatter = await eslint.loadFormatter("stylish");
   const resultText = formatter.format(results);
 
-  console.log(resultText);
+  if (resultText) {
+    console.log(resultText);
+  }
 
   const errorCount = results.reduce((sum, result) => sum + result.errorCount, 0);
+
   if (errorCount > 0) {
     process.exit(1);
   } else {
