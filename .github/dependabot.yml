@@ -1,8 +1,16 @@
 version: 2
+
+registries:
+  - type: "npm-registry"
+    url: "https://npm.pkg.github.com"
+    token: "${{ secrets.BOT_TOKEN }}"
+
 updates:
   - package-ecosystem: "npm"
     directory: "/"
     commit-message:
-      prefix: "npm"
+      prefix: "chore"
     schedule:
-      interval: "weekly"
+      interval: "daily"
+    registries:
+      - use-nyte
