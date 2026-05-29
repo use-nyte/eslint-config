@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.4.0](https://github.com/use-nyte/eslint-config/compare/v1.3.1...v1.4.0) (2026-05-29)
+
+
+### Features
+
+* dependabot & hooks ([#21](https://github.com/use-nyte/eslint-config/issues/21)) ([1579ad2](https://github.com/use-nyte/eslint-config/commit/1579ad2bfcf913c037ca5f2c0f96c403a8eb5cdf))
+* format ([#23](https://github.com/use-nyte/eslint-config/issues/23)) ([ab700cd](https://github.com/use-nyte/eslint-config/commit/ab700cdedd0d6a266917b906d57689b780cd0b15))
+
+
+### Bug Fixes
+
+* only log results when available ([624c17a](https://github.com/use-nyte/eslint-config/commit/624c17a5bc5a1f6baa51752724c745cfccf142e6))
+
 ## [1.3.1](https://github.com/use-nyte/eslint-config/compare/v1.3.0...v1.3.1) (2026-05-27)
 
 
