@@ -11,7 +11,13 @@ async function main() {
     fix: true
   });
 
-  const results = await eslint.lintFiles(overrideConfig[0].files);
+  const results = await eslint.lintFiles(overrideConfig[0].files).catch((error) => {
+    if (error?.messageTemplate === "all-matched-files-ignored") {
+      return [];
+    } else {
+      throw error;
+    }
+  });
 
   const formatter = await eslint.loadFormatter("stylish");
   const resultText = formatter.format(results);
