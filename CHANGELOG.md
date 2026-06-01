@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.2](https://github.com/use-nyte/eslint-config/compare/v1.4.1...v1.4.2) (2026-06-01)
+
+
+### Bug Fixes
+
+* ignore .react-router directory ([f240324](https://github.com/use-nyte/eslint-config/commit/f240324033893c6d5ce9e5f3816d8bb6100742da))
+
 ## [1.4.1](https://github.com/use-nyte/eslint-config/compare/v1.4.0...v1.4.1) (2026-05-29)
 
 
