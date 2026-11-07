@@ -6,11 +6,10 @@ on:
       - main
 
 permissions:
-  contents: write
+  contents: read
   packages: read
 
 jobs:
   format:
     name: Format Code
     uses: use-nyte/.github/.github/workflows/format-prettier.yml@main
-    secrets: inherit
