@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/use-nyte/eslint-config/compare/v1.4.2...v2.0.0) (2026-11-07)
+
+
+### ⚠ BREAKING CHANGES
+
+* **eslint:** The CLI no longer fixes files automatically. Pass --fix to apply ESLint fixes.
+
+### Features
+
+* **eslint:** make linting read-only be default ([#26](https://github.com/use-nyte/eslint-config/issues/26)) ([e36c06b](https://github.com/use-nyte/eslint-config/commit/e36c06b0fa0fe78fe41b439d971a869e547e0b0a))
+
 ## [1.4.2](https://github.com/use-nyte/eslint-config/compare/v1.4.1...v1.4.2) (2026-06-01)
 
 
