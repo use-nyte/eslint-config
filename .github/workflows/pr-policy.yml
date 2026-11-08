@@ -1,0 +1,19 @@
+name: PR Policy
+
+on:
+  pull_request:
+    branches:
+      - main
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - edited
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate PR Title
+    uses: use-nyte/.github/.github/workflows/pr-policy.yml@main
