@@ -12,4 +12,4 @@ permissions:
 jobs:
   format:
     name: Format Code
-    uses: use-nyte/.github/.github/workflows/format-prettier.yml@main
+    uses: use-nyte/.github/.github/workflows/format-prettier.yml@v1.0.0

@@ -12,4 +12,4 @@ permissions:
 jobs:
   lint:
     name: Lint Code
-    uses: use-nyte/.github/.github/workflows/lint-eslint.yml@main
+    uses: use-nyte/.github/.github/workflows/lint-eslint.yml@v1.0.0
