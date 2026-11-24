@@ -6,7 +6,7 @@ import globals from "globals";
 
 export default defineConfig([
   { files: ["**/*.{js,ts,mjs,mts,jsx,tsx}"] },
-  { ignores: [".generated", ".react-router", "dist", "node_modules"] },
+  { ignores: [".docusaurus", ".generated", ".react-router", "build", "dist", "node_modules"] },
   { languageOptions: { globals: { ...globals.browser, ...globals.node } } },
   js.configs.recommended,
   tseslint.configs.recommended,
