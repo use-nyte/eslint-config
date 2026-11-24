@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.1](https://github.com/use-nyte/eslint-config/compare/v2.0.0...v2.0.1) (2026-11-24)
+
+
+### Bug Fixes
+
+* **config:** ignore .generated directory ([4f72124](https://github.com/use-nyte/eslint-config/commit/4f72124b3de498b9c670725d9755c0e1f8d4efff))
+
 ## [2.0.0](https://github.com/use-nyte/eslint-config/compare/v1.4.2...v2.0.0) (2026-11-07)
 
 
