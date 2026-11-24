@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.2](https://github.com/use-nyte/eslint-config/compare/v2.0.1...v2.0.2) (2026-11-24)
+
+
+### Bug Fixes
+
+* **config:** ignore .docusaurus and build directories ([88cfbca](https://github.com/use-nyte/eslint-config/commit/88cfbcafdc68837720da5341fe6a6062a1f914aa))
+
 ## [2.0.1](https://github.com/use-nyte/eslint-config/compare/v2.0.0...v2.0.1) (2026-11-24)
 
 
