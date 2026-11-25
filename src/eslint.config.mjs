@@ -1,13 +1,24 @@
-import { defineConfig } from "eslint/config";
 import js from "@eslint/js";
-import tseslint from "typescript-eslint";
-import pluginReact from "eslint-plugin-react";
+import { defineConfig } from "eslint/config";
+import solid from "eslint-plugin-solid/configs/typescript";
 import globals from "globals";
+import tseslint from "typescript-eslint";
 
 export default defineConfig([
-  { files: ["**/*.{js,ts,mjs,mts,jsx,tsx,cjs,cts}"] },
-  { ignores: [".docusaurus", ".generated", ".react-router", "build", "dist", "node_modules"] },
-  { languageOptions: { globals: { ...globals.browser, ...globals.node } } },
+  {
+    files: ["**/*.{js,ts,mjs,mts,jsx,tsx,cjs,cts}"]
+  },
+  {
+    ignores: [".docusaurus", ".generated", ".tanstack", "build", "dist", "node_modules"]
+  },
+  {
+    languageOptions: {
+      globals: {
+        ...globals.browser,
+        ...globals.node
+      }
+    }
+  },
   js.configs.recommended,
   {
     files: ["**/*.{ts,mts,tsx,cts}"],
@@ -26,16 +37,8 @@ export default defineConfig([
       "@typescript-eslint/explicit-module-boundary-types": "error"
     }
   },
-  pluginReact.configs.flat.recommended,
-  pluginReact.configs.flat["jsx-runtime"],
   {
-    settings: {
-      react: {
-        version: "19"
-      }
-    },
-    rules: {
-      "react/react-in-jsx-scope": "off"
-    }
+    files: ["**/*.{ts,tsx}"],
+    extends: [solid]
   }
 ]);
