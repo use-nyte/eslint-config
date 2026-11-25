@@ -17,6 +17,6 @@ permissions:
 jobs:
   validate:
     name: Validate PR Title
-    uses: use-nyte/.github/.github/workflows/pr-policy.yml@v1.1.0
+    uses: use-nyte/.github/.github/workflows/pr-policy.yml@v1.1.1
     with:
       enforce-linked-issues: true
