@@ -3,7 +3,6 @@
 import { ESLint } from "eslint";
 import overrideConfig from "./eslint.config.mjs";
 
-// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
 async function main() {
   const shouldFix = process.argv.includes("--fix");
 
