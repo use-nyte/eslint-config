@@ -1,0 +1,24 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+  packages: read
+
+jobs:
+  ci:
+    name: Node CI
+    uses: use-nyte/.github/.github/workflows/ci-node.yml@v1.0.1
+    with:
+      run-build: false
+      run-tests: false
+      run-typecheck: false
+      run-lint: true
+      run-format: true

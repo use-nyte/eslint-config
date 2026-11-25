@@ -10,6 +10,7 @@
   },
   "scripts": {
     "lint": "node src/cli.mjs",
+    "format": "pnpm exec format",
     "prepare": "husky"
   },
   "dependencies": {
