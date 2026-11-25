@@ -15,7 +15,7 @@ permissions:
 jobs:
   ci:
     name: Node CI
-    uses: use-nyte/.github/.github/workflows/ci-node.yml@v1.0.1
+    uses: use-nyte/.github/.github/workflows/ci-node.yml@v1.1.0
     with:
       run-build: false
       run-tests: false

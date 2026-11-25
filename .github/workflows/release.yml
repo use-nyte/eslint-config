@@ -14,5 +14,5 @@ permissions:
 jobs:
   release:
     name: Release
-    uses: use-nyte/.github/.github/workflows/release-node-pkg.yml@v1.0.0
+    uses: use-nyte/.github/.github/workflows/release-node-pkg.yml@v1.1.0
     secrets: inherit
