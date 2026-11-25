@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.3](https://github.com/use-nyte/eslint-config/compare/v2.0.2...v2.0.3) (2026-11-25)
+
+
+### Bug Fixes
+
+* **eslint:** restrict TypeScript rules to TypeScript files ([084970e](https://github.com/use-nyte/eslint-config/commit/084970e2e19ed325eef7ec59270a28ccfc2044c1))
+
 ## [2.0.2](https://github.com/use-nyte/eslint-config/compare/v2.0.1...v2.0.2) (2026-11-24)
 
 
