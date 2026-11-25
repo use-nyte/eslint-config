@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.1.0](https://github.com/use-nyte/eslint-config/compare/v2.0.3...v2.1.0) (2026-11-25)
+
+
+### Features
+
+* **lint:** replace React rules with SolidJS support ([2ee6bcf](https://github.com/use-nyte/eslint-config/commit/2ee6bcf4f539321def7082a08799f0070de3c212))
+
+
+### Bug Fixes
+
+* **ci:** update release PR validation ([4d6dfc4](https://github.com/use-nyte/eslint-config/commit/4d6dfc41136d6c2f4de79b1dfc09b2aff6d081b9))
+
 ## [2.0.3](https://github.com/use-nyte/eslint-config/compare/v2.0.2...v2.0.3) (2026-11-25)
 
 
