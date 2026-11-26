@@ -35,7 +35,7 @@ async function main() {
   const warningCount = results.reduce((sum, result) => sum + result.warningCount, 0);
 
   if (errorCount > 0 || warningCount > 0) {
-    process.exit(1);
+    process.exitCode = 1;
   } else {
     console.log("No linting issues found.");
   }
@@ -43,5 +43,5 @@ async function main() {
 
 main().catch((error) => {
   console.error(error);
-  process.exit(1);
+  process.exitCode = 1;
 });

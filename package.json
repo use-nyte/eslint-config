@@ -9,6 +9,8 @@
     "lint": "src/cli.mjs"
   },
   "scripts": {
+    "build": "pnpm pack --dry-run --ignore-scripts",
+    "test": "node --test",
     "lint": "node src/cli.mjs",
     "format": "pnpm exec format",
     "prepare": "husky"
