@@ -190,7 +190,7 @@ importers:
     devDependencies:
       '@use-nyte/prettier-config':
         specifier: ^2.0.0
-        version: 2.0.0(typescript@6.0.3)
+        version: 2.0.4(typescript@6.0.3)
       husky:
         specifier: ^9.1.7
         version: 9.1.7
@@ -524,8 +524,8 @@ packages:
     resolution: {integrity: sha512-9WI52t8ZGLVGrPMBet25yAftqY/n95+zmoUUtJBBQTKDSKUu7OsPTroT2op7U9JatkoRccL0YkWDNMFfC4Sjxg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@use-nyte/prettier-config@2.0.0':
-    resolution: {integrity: sha512-7DPibNaR8NG2pvCBOdMRC1mxZDrMSF2wGLOPBAoJKRaCJjNCSqt9q2llgh/j0eWgQ1XRcEbFoBy7s4rXq6BdXw==, tarball: https://npm.pkg.github.com/download/@use-nyte/prettier-config/2.0.0/a57bee161743609888ec26dbbb03fe936affbae7}
+  '@use-nyte/prettier-config@2.0.4':
+    resolution: {integrity: sha512-eAEP9m8B7VsD3SGIFtFE4Q9I7bVM/v0xoa5T1wTVCSqStTMqXmRwyUSeq0qkXdtiNHxMaBgs/hcoEk0QFO3mjg==, tarball: https://npm.pkg.github.com/download/@use-nyte/prettier-config/2.0.4/9cb1c50ba819a8d7568c5869f33fe32a215202eb}
     hasBin: true
 
   acorn-jsx@5.3.2:
@@ -1708,7 +1708,7 @@ snapshots:
       '@typescript-eslint/types': 8.60.0
       eslint-visitor-keys: 5.0.1
 
-  '@use-nyte/prettier-config@2.0.0(typescript@6.0.3)':
+  '@use-nyte/prettier-config@2.0.4(typescript@6.0.3)':
     dependencies:
       ignore: 5.3.2
       prettier: 3.8.3
