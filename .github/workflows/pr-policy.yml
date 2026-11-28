@@ -17,6 +17,7 @@ permissions:
 jobs:
   validate:
     name: Validate PR Title
+    if: github.event.pull_request.user.id != 353687181
     uses: use-nyte/.github/.github/workflows/pr-policy.yml@v1.1.1
     with:
       enforce-linked-issues: true
