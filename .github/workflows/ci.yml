@@ -15,7 +15,7 @@ permissions:
 jobs:
   ci:
     name: Node CI
-    uses: use-nyte/.github/.github/workflows/ci-node.yml@v1.2.0
+    uses: use-nyte/.github/.github/workflows/ci-node.yml@v1.3.0
     with:
       run-build: true
       run-tests: true
@@ -27,7 +27,7 @@ jobs:
     name: Release Node.js Package
     if: github.event_name == 'push'
     needs: ci
-    uses: use-nyte/.github/.github/workflows/release-node-pkg.yml@v1.2.0
+    uses: use-nyte/.github/.github/workflows/release-node-pkg.yml@v1.3.0
     permissions:
       contents: read
       packages: write
