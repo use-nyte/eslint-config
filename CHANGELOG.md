@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.1.1](https://github.com/use-nyte/eslint-config/compare/v2.1.0...v2.1.1) (2026-11-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-prettier to v5.5.7 ([#48](https://github.com/use-nyte/eslint-config/issues/48)) ([74e98c6](https://github.com/use-nyte/eslint-config/commit/74e98c6512def217b30f1966b3b9272330c795ba))
+* **deps:** update dependency globals to v17.14.0 ([#51](https://github.com/use-nyte/eslint-config/issues/51)) ([f24180a](https://github.com/use-nyte/eslint-config/commit/f24180afe6a6909a20e3c798cafd95776d2226e6))
+* **eslint:** preserve piped diagnostics and verify packages before release ([f982998](https://github.com/use-nyte/eslint-config/commit/f9829981a24db49f507477facc0cea8e89a60116))
+
 ## [2.1.0](https://github.com/use-nyte/eslint-config/compare/v2.0.3...v2.1.0) (2026-11-25)
 
 
