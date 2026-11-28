@@ -196,7 +196,7 @@ importers:
         version: 10.1.8(eslint@10.15.0)
       eslint-plugin-prettier:
         specifier: 5.5.7
-        version: 5.5.7(eslint-config-prettier@10.1.8(eslint@10.15.0))(eslint@10.15.0)(prettier@3.8.3)
+        version: 5.5.7(eslint-config-prettier@10.1.8(eslint@10.15.0))(eslint@10.15.0)(prettier@3.10.1)
       eslint-plugin-solid:
         specifier: 0.20.1
         version: 0.20.1(eslint@10.15.0)
@@ -208,8 +208,8 @@ importers:
         version: 8.74.0(eslint@10.15.0)(typescript@6.0.3)
     devDependencies:
       '@use-nyte/prettier-config':
-        specifier: 2.0.4
-        version: 2.0.4(typescript@6.0.3)
+        specifier: 2.0.5
+        version: 2.0.5(typescript@6.0.3)
       husky:
         specifier: 9.1.7
         version: 9.1.7
@@ -568,8 +568,9 @@ packages:
     resolution: {integrity: sha512-XSZmOtMUbWCBIM+2BK134FyMFxmll1mW2mPLk/PSwYQYzGIPMgJAqL929U4qXVizLv7Xq5b7r41/o7Ombuwk0g==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@use-nyte/prettier-config@2.0.4':
-    resolution: {integrity: sha512-eAEP9m8B7VsD3SGIFtFE4Q9I7bVM/v0xoa5T1wTVCSqStTMqXmRwyUSeq0qkXdtiNHxMaBgs/hcoEk0QFO3mjg==, tarball: https://npm.pkg.github.com/download/@use-nyte/prettier-config/2.0.4/9cb1c50ba819a8d7568c5869f33fe32a215202eb}
+  '@use-nyte/prettier-config@2.0.5':
+    resolution: {integrity: sha512-1jSqYaUzsejk4yiCwYDvHhWSZiYTT1DezZxMXU4j9bpaWQER6Q+Tj4ZFf8199dMzyIN40uuB7V8+0mQZ5fSVdg==, tarball: https://npm.pkg.github.com/download/@use-nyte/prettier-config/2.0.5/4034ad5679dad218e1d3e749387a1e34b0e31b47}
+    engines: {node: 26.13.1}
     hasBin: true
 
   acorn-jsx@5.3.2:
@@ -823,6 +824,10 @@ packages:
 
   ignore@5.3.2:
     resolution: {integrity: sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==}
+    engines: {node: '>= 4'}
+
+  ignore@7.0.17:
+    resolution: {integrity: sha512-0c3zcBRlWmcKhcIQWckzkYncJRv5HHB8O32wO/FcWL8DDXWDJgiEF6SX9ThbTv5h/eZ+xJK+VvDjjQ+cQJhp3Q==}
     engines: {node: '>= 4'}
 
   ignore@7.0.5:
@@ -1165,8 +1170,8 @@ packages:
       vue-tsc:
         optional: true
 
-  prettier-plugin-tailwindcss@0.8.0:
-    resolution: {integrity: sha512-V8ITGH87yuBDF6JpEZTOVlUz/saAwqb8f3HRgUj8Lh+tGCcrmorhsLpYqzygwFwK0PE2Ib6Mv3M7T/uE2tZV1g==}
+  prettier-plugin-tailwindcss@0.8.1:
+    resolution: {integrity: sha512-iaFMYqDsE4ffdDkn5qup0j5f2aCEBFZrdrZnvu9QKTlWx/iGPeQ4HHu7b7fCPMxeo9nwQBiOAh2nSypdFYWJkw==}
     engines: {node: '>=20.19'}
     peerDependencies:
       '@ianvs/prettier-plugin-sort-imports': '*'
@@ -1220,8 +1225,8 @@ packages:
       prettier-plugin-svelte:
         optional: true
 
-  prettier@3.8.3:
-    resolution: {integrity: sha512-7igPTM53cGHMW8xWuVTydi2KO233VFiTNyF5hLJqpilHfmn8C8gPf+PS7dUT64YcXFbiMGZxS9pCSxL/Dxm/Jw==}
+  prettier@3.10.1:
+    resolution: {integrity: sha512-70vp3ZUYoPlFbF9uiTdXHUUCGEIp7d4+6p+8DYbkm2jP7x/3i/paXVF6dopSI3zd/CEitrZN1rc4i85xWmmXlg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -1792,13 +1797,13 @@ snapshots:
       '@typescript-eslint/types': 8.74.0
       eslint-visitor-keys: 5.0.1
 
-  '@use-nyte/prettier-config@2.0.4(typescript@6.0.3)':
+  '@use-nyte/prettier-config@2.0.5(typescript@6.0.3)':
     dependencies:
-      ignore: 5.3.2
-      prettier: 3.8.3
-      prettier-plugin-organize-class-members: 1.0.0-beta.6(prettier@3.8.3)
-      prettier-plugin-organize-imports: 4.3.0(prettier@3.8.3)(typescript@6.0.3)
-      prettier-plugin-tailwindcss: 0.8.0(prettier-plugin-organize-imports@4.3.0(prettier@3.8.3)(typescript@6.0.3))(prettier@3.8.3)
+      ignore: 7.0.17
+      prettier: 3.10.1
+      prettier-plugin-organize-class-members: 1.0.0-beta.6(prettier@3.10.1)
+      prettier-plugin-organize-imports: 4.3.0(prettier@3.10.1)(typescript@6.0.3)
+      prettier-plugin-tailwindcss: 0.8.1(prettier-plugin-organize-imports@4.3.0(prettier@3.10.1)(typescript@6.0.3))(prettier@3.10.1)
     transitivePeerDependencies:
       - '@babel/preset-env'
       - '@ianvs/prettier-plugin-sort-imports'
@@ -1903,10 +1908,10 @@ snapshots:
     dependencies:
       eslint: 10.15.0
 
-  eslint-plugin-prettier@5.5.7(eslint-config-prettier@10.1.8(eslint@10.15.0))(eslint@10.15.0)(prettier@3.8.3):
+  eslint-plugin-prettier@5.5.7(eslint-config-prettier@10.1.8(eslint@10.15.0))(eslint@10.15.0)(prettier@3.10.1):
     dependencies:
       eslint: 10.15.0
-      prettier: 3.8.3
+      prettier: 3.10.1
       prettier-linter-helpers: 1.0.1
       synckit: 0.12.3
     optionalDependencies:
@@ -2059,6 +2064,8 @@ snapshots:
   husky@9.1.7: {}
 
   ignore@5.3.2: {}
+
+  ignore@7.0.17: {}
 
   ignore@7.0.5: {}
 
@@ -2231,27 +2238,27 @@ snapshots:
     dependencies:
       fast-diff: 1.3.0
 
-  prettier-plugin-organize-class-members@1.0.0-beta.6(prettier@3.8.3):
+  prettier-plugin-organize-class-members@1.0.0-beta.6(prettier@3.10.1):
     dependencies:
       jscodeshift: 17.3.0
       lodash: 4.18.1
-      prettier: 3.8.3
+      prettier: 3.10.1
     transitivePeerDependencies:
       - '@babel/preset-env'
       - supports-color
 
-  prettier-plugin-organize-imports@4.3.0(prettier@3.8.3)(typescript@6.0.3):
+  prettier-plugin-organize-imports@4.3.0(prettier@3.10.1)(typescript@6.0.3):
     dependencies:
-      prettier: 3.8.3
+      prettier: 3.10.1
       typescript: 6.0.3
 
-  prettier-plugin-tailwindcss@0.8.0(prettier-plugin-organize-imports@4.3.0(prettier@3.8.3)(typescript@6.0.3))(prettier@3.8.3):
+  prettier-plugin-tailwindcss@0.8.1(prettier-plugin-organize-imports@4.3.0(prettier@3.10.1)(typescript@6.0.3))(prettier@3.10.1):
     dependencies:
-      prettier: 3.8.3
+      prettier: 3.10.1
     optionalDependencies:
-      prettier-plugin-organize-imports: 4.3.0(prettier@3.8.3)(typescript@6.0.3)
+      prettier-plugin-organize-imports: 4.3.0(prettier@3.10.1)(typescript@6.0.3)
 
-  prettier@3.8.3: {}
+  prettier@3.10.1: {}
 
   punycode@2.3.1: {}
 
